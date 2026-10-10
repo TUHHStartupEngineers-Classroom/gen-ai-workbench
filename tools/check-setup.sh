@@ -18,6 +18,7 @@ SETUP_URL="https://www.gen-ai.startupengineer.io/sessions/02_agent_workbench/set
 ok()   { printf '  \033[32m[ok]\033[0m   %s\n' "$1"; }
 warn() { printf '  \033[33m[warn]\033[0m %s\n' "$1"; }
 fail() { printf '  \033[31m[fail]\033[0m %s\n' "$1"; FAILED=$((FAILED + 1)); }
+info() { printf '  \033[36m[info]\033[0m %s\n' "$1"; }
 FAILED=0
 
 # Calls GET /api/v1/key with the key in a header that is passed via stdin,
@@ -113,6 +114,7 @@ if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 else
   fail "This folder is not a git repository. Open the terminal in your workbench repository."
 fi
+info "Did you add christophihl as collaborator? (Settings → Collaborators) This script cannot check it."
 
 echo "2. Git identity"
 if [ -n "$(git config user.name)" ] && [ -n "$(git config user.email)" ]; then

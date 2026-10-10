@@ -22,7 +22,7 @@ All companies, people, and numbers are synthetic.
 ## Starter instruction (deliberately thin, improve it)
 
 ```text
-Check the expenses against the policy and write the findings to output/t1_findings.md.
+Check the expenses against the policy and write the findings to a02/output/t1_findings.md.
 ```
 
 Before you run the agent: read both files yourself (`head`, `cat`, `wc -l`). Then decide what the agent must be told so that you can trust its result.

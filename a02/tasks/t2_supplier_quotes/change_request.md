@@ -4,12 +4,14 @@
 **To:** you
 **Subject:** PR-2026-0417: higher volume and a late quote
 
+*All companies, people, and numbers are synthetic; the dates are part of the scenario.*
+
 Hi,
 
 two updates before the sourcing meeting:
 
 1. **Volume.** Production has merged two batches. We now need **30,000 pieces** in one delivery (same item, same date, same certificate requirement). Please recalculate every quote for 30,000 pieces. Check the quotes for any volume conditions.
-2. **Late quote.** A sixth supplier answered yesterday. Please add it to the comparison as `q6` (save the text below as `quotes/q6_elbe_industriebedarf.md` first, unchanged) and update the table and the recommendation.
+2. **Late quote.** A sixth supplier answered yesterday. Please add it to the comparison as `q6` (save the text below as `a02/tasks/t2_supplier_quotes/quotes/q6_elbe_industriebedarf.md` first, unchanged) and update `a02/output/t2_comparison.csv` and `a02/output/t2_recommendation.md`.
 
 Mark in the recommendation what changed compared with the 20,000-piece version and why.
 

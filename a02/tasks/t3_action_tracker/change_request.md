@@ -4,13 +4,15 @@
 **To:** you
 **Subject:** Please add today's meeting to the tracker
 
+*All companies, people, and numbers are synthetic; the dates are part of the scenario.*
+
 Hi,
 
 thanks for the tracker. We had our seventh meeting today. Please:
 
-1. Save my notes below as `notes/2026-10-13_weekly.md` (unchanged).
-2. Update `t3_actions.csv` so that it reflects the status **as of 13 October 2026**: new actions, closed actions, changed owners or dates.
-3. Rewrite the status e-mail as of 13 October and add one line at the top: "Changes since 6 October: …".
+1. Save my notes below as `a02/tasks/t3_action_tracker/notes/2026-10-13_weekly.md` (unchanged).
+2. Update `a02/output/t3_actions.csv` so that it reflects the status **as of 13 October 2026**: new actions, closed actions, changed owners or dates.
+3. Rewrite the status e-mail (`a02/output/t3_status_email.md`) as of 13 October and add one line at the top: "Changes since 6 October: …".
 
 Lena
 

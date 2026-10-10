@@ -26,17 +26,23 @@ Where did it go wrong, and **how did you notice**? (Which file, which number, wh
 | 2 | | | |
 | 3 | | | |
 
-## 4. Undo
+## 4. Change request
 
-What did you undo, why, and with which command (`git restore` / `git revert <hash>`)? Link the commit.
+What changed in your outputs because of the change request, and how did you check that all outputs are consistent with each other (not just appended)?
 
-## 5. Cost
+## 5. Undo
+
+What did you undo, and why was the change wrong? How did the diff show it? Which command did you use (`git restore <file>` / `git revert --no-edit <hash>`)?
+
+Commit URL of your revert (if you used `git revert`):
+
+## 6. Cost
 
 | Model | Runs / turns (approx.) | Spend in USD (from `bash tools/check-setup.sh --usage`, before → after) | Plausible vs. your estimate? |
 |:------|:----------------------:|:-----------------------------------------------------------------------:|:-----------------------------|
 | | | | |
 
-## 6. What I would put into AGENTS.md next time
+## 7. What I would put into AGENTS.md next time
 
 One or two concrete rules, phrased as you would write them for the agent.
 

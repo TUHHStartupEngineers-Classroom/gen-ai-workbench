@@ -21,7 +21,7 @@ All companies, people, and numbers are synthetic.
 ## Starter instruction (deliberately thin, improve it)
 
 ```text
-Compare the five quotes and tell me which supplier is cheapest. Save a table to output/t2_comparison.csv.
+Compare the five quotes and tell me which supplier is cheapest. Save a table to a02/output/t2_comparison.csv and the recommendation to a02/output/t2_recommendation.md.
 ```
 
 Before you run the agent: read the requirements and at least two quotes yourself. What could make a quote look cheaper than it is?

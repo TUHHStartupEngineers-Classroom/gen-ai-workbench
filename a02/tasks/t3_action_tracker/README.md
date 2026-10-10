@@ -16,7 +16,7 @@ All companies, people, and numbers are synthetic.
 ## Starter instruction (deliberately thin, improve it)
 
 ```text
-Read the meeting notes and make a list of all action items with owner and due date in output/t3_actions.csv. Then write a status e-mail.
+Read the meeting notes and make a list of all action items with owner and due date in a02/output/t3_actions.csv. Then write a status e-mail to a02/output/t3_status_email.md.
 ```
 
 Before you run the agent: skim all six files yourself (`ls notes`, `cat`). Track one action through all meetings. What can change about an action between meetings?
