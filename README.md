@@ -1,28 +1,41 @@
-# A1: Model-Selection Memo
+# gen-ai workbench
 
-**Generative AI for Managers, WS 2026/27. Due Wednesday, 21 October 2026, 23:59.**
+**Generative AI for Managers, WS 2026/27.** Your personal workbench for all individual assignments (A2 to A11).
 
-Full brief, scenario presets and rubric: <https://www.gen-ai.startupengineer.io/sessions/01_how_llms_work/session.html#assignment-a1>
+You work here in a GitHub Codespace with a coding agent (OpenCode) and a capped OpenRouter key. Step-by-step setup, troubleshooting, and top-up rules:
+<https://www.gen-ai.startupengineer.io/sessions/02_agent_workbench/setup.html>
 
-## What goes into this repository
+## Quick start
 
-| File | What it is |
+1. Create your own copy: **Use this template → Create a new repository**, name `gen-ai-workbench`, visibility **Private**.
+2. Add the instructor as collaborator: **Settings → Collaborators → Add people → `christophihl`**.
+3. Store your course key as a Codespaces secret named `OPENROUTER_API_KEY` (GitHub profile → Settings → Codespaces → New secret, give this repository access).
+4. Open a Codespace: **Code → Codespaces → Create codespace on main**.
+5. In the terminal: `bash tools/check-setup.sh`. All ticks green? Start the agent with `opencode`.
+
+**Stop your Codespace when you are done** (Codespaces → … → Stop). The free quota is limited.
+
+## What is in this repository
+
+| Path | What it is |
 |:-----|:-----------|
-| `A1_memo_lastname.pdf` | Your one-page memo, followed by the appendix (cost table, screenshots, AI-use log), as **one PDF** |
-| `A1_cost_lastname.xlsx` | The cost template in this repository, filled in. Rename it with your last name |
+| `a02/` | Assignment A2: supervised agent task (lab tasks, change requests, reflection template) |
+| `AGENTS.md` | Standing instructions the agent reads before every run. You will improve it in S03. |
+| `opencode.json` | Agent settings: default model, permissions (`ask` before edits and commands) |
+| `tools/check-setup.sh` | Setup check; `--usage` shows your key's spend |
+| `tools/get-assignment.sh` | Fetches the starter folder of a new assignment, e.g. `bash tools/get-assignment.sh a03` |
+| `.devcontainer/` | Recipe that builds your Codespace and installs the agent |
 
-## How to submit (no terminal needed)
+## How to submit an assignment
 
-1. Download `A1_cost_lastname.xlsx` from this repository (click the file, then the download button), fill it in, and rename it.
-2. On this repository's main page, click **Add file → Upload files**.
-3. Drag in your memo PDF and your filled cost template.
-4. Click **Commit changes**.
-5. Check that both files appear in the file list above.
+1. Commit and push your final work in the assignment folder (e.g. `a02/`).
+2. On GitHub, open the commit and copy its URL (it contains the commit hash).
+3. Post the commit URL and the repository URL in **MS Teams → Assignments**.
 
-You can upload a new version before the deadline in the same way. The latest version committed before the deadline counts.
+Deadline: Friday 12:00 on the day of the next session. No late submissions.
 
 ## Rules
 
+- **Never** put your API key into a file, a commit, a chat, or a screenshot. It lives only in the Codespaces secret. A key found in your git history costs 10 points and is revoked.
 - Synthetic or public data only.
-- An AI-use log in the appendix is required (tool, purpose, what you checked). A missing log costs 10 points.
-- Late submissions: up to 24 hours late −20%, later = 0. Extensions only if requested before the deadline.
+- Every submission includes an AI-use log (see `a02/REFLECTION.md`).

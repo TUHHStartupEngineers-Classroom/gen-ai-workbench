@@ -1,0 +1,61 @@
+line_id,employee,department,trip_id,date,category,merchant,city,country,nights,amount,currency,receipt,comment
+E001,Anna Becker,Sales,T-301,2026-07-07,Train,DB Fernverkehr,Hamburg,DE,,129.90,EUR,yes,
+E002,Anna Becker,Sales,T-301,2026-07-07,Hotel,Hotel Isarblick,Munich,DE,2,378.00,EUR,yes,trade fair week
+E003,Anna Becker,Sales,T-301,2026-07-07,Meals,Various,Munich,DE,,34.50,EUR,yes,
+E004,Anna Becker,Sales,T-301,2026-07-08,Meals,Various,Munich,DE,,38.20,EUR,yes,
+E005,Anna Becker,Sales,T-301,2026-07-09,Taxi,Isar Taxi,Munich,DE,,27.40,EUR,yes,
+E006,Mehmet Yilmaz,Sales,T-302,2026-07-14,Train,DB Fernverkehr,Hamburg,DE,,89.90,EUR,yes,
+E007,Mehmet Yilmaz,Sales,T-302,2026-07-14,Hotel,Spree Residenz,Berlin,DE,1,171.00,EUR,yes,
+E008,Mehmet Yilmaz,Sales,T-302,2026-07-14,Meals,Various,Berlin,DE,,29.80,EUR,yes,
+E009,Mehmet Yilmaz,Sales,T-302,2026-07-15,Taxi,Berlin Cab,Berlin,DE,,84.00,EUR,no,"airport run, receipt lost"
+E010,Jonas Hoffmann,Key Account Mgmt,T-303,2026-07-20,Flight,Atlantic Air,Hamburg,DE,,1184.00,EUR,yes,economy
+E011,Jonas Hoffmann,Key Account Mgmt,T-303,2026-07-20,Hotel,Midtown Suites,New York,US,2,578.00,USD,yes,
+E012,Jonas Hoffmann,Key Account Mgmt,T-303,2026-07-20,Meals,Various,New York,US,,62.00,USD,yes,
+E013,Jonas Hoffmann,Key Account Mgmt,T-303,2026-07-21,Meals,Various,New York,US,,58.40,USD,yes,
+E014,Jonas Hoffmann,Key Account Mgmt,T-303,2026-07-21,Taxi,Yellow Cab,New York,US,,56.00,USD,no,no receipt from driver
+E015,Jonas Hoffmann,Key Account Mgmt,T-303,2026-07-22,Taxi,Yellow Cab,New York,US,,48.00,USD,yes,
+E016,Laura Schmidt,Operations,T-304,2026-07-28,Train,DB Fernverkehr,Hamburg,DE,,112.40,EUR,yes,
+E017,Laura Schmidt,Operations,T-304,2026-07-28,Hotel,Mainufer Hotel,Frankfurt,DE,1,139.00,EUR,yes,
+E018,Laura Schmidt,Operations,T-304,2026-07-28,Meals,Various,Frankfurt,DE,,31.60,EUR,yes,
+E019,Laura Schmidt,Operations,T-304,2026-07-29,Parking,P+R Hauptbahnhof,Hamburg,DE,,24.00,EUR,yes,
+E020,Sofia Rossi,Procurement,T-305,2026-08-04,Flight,Northsea Airways,Hamburg,DE,,246.00,EUR,yes,economy
+E021,Sofia Rossi,Procurement,T-305,2026-08-04,Hotel,Thames Court Hotel,London,UK,1,189.00,GBP,yes,supplier visit
+E022,Sofia Rossi,Procurement,T-305,2026-08-04,Meals,Various,London,UK,,46.00,GBP,yes,
+E023,Sofia Rossi,Procurement,T-305,2026-08-05,Meals,Various,London,UK,,39.50,GBP,yes,
+E024,Sofia Rossi,Procurement,T-305,2026-08-05,Taxi,City Cabs London,London,UK,,32.00,GBP,yes,
+E025,David Owusu,IT,T-306,2026-08-13,Train,DB Fernverkehr,Hamburg,DE,,94.30,EUR,yes,
+E026,David Owusu,IT,T-306,2026-08-13,Hotel,Rheinpark Hotel,Düsseldorf,DE,2,268.00,EUR,yes,
+E027,David Owusu,IT,T-306,2026-08-14,Meals,Various,Düsseldorf,DE,,33.10,EUR,yes,
+E028,David Owusu,IT,T-306,2026-08-15,Meals,Various,Düsseldorf,DE,,36.80,EUR,yes,stayed on for data-centre migration
+E029,Tobias Wendt,Operations,T-307,2026-08-18,Train,DB Fernverkehr,Hamburg,DE,,99.90,EUR,yes,
+E030,Tobias Wendt,Operations,T-307,2026-08-18,Hotel,Domblick Hotel,Cologne,DE,1,128.00,EUR,yes,
+E031,Tobias Wendt,Operations,T-307,2026-08-18,Meals,Various,Cologne,DE,,27.90,EUR,yes,
+E032,Tobias Wendt,Operations,T-307,2026-08-19,Taxi,Taxi Ruf Köln,Cologne,DE,,19.60,EUR,yes,
+E033,Katrin Vogel,Controlling,T-308,2026-08-27,Train,DB Fernverkehr,Hamburg,DE,,79.90,EUR,yes,
+E034,Katrin Vogel,Controlling,T-308,2026-08-27,Hotel,Spree Residenz,Berlin,DE,2,296.00,EUR,yes,
+E035,Katrin Vogel,Controlling,T-308,2026-08-29,Meals,Various,Berlin,DE,,35.20,EUR,yes,"ERP cut-over workshop, weekend approved by M. Brandt"
+E036,Anna Becker,Sales,T-309,2026-09-02,Train,DB Fernverkehr,Hamburg,DE,,129.90,EUR,yes,customer visit Hannover
+E037,Anna Becker,Sales,T-309,2026-09-02,Meals,Various,Hannover,DE,,37.50,EUR,yes,
+E038,Mehmet Yilmaz,Sales,T-310,2026-09-08,Hotel,Königsallee Inn,Düsseldorf,DE,1,136.00,EUR,yes,sales kick-off
+E039,Mehmet Yilmaz,Sales,T-310,2026-09-08,Meals,Various,Düsseldorf,DE,,52.00,EUR,yes,team dinner share
+E040,Mehmet Yilmaz,Sales,T-310,2026-09-09,Meals,Various,Düsseldorf,DE,,38.90,EUR,yes,
+E041,Jonas Hoffmann,Key Account Mgmt,T-311,2026-09-14,Flight,Atlantic Air,Hamburg,DE,,1096.00,EUR,yes,economy
+E042,Jonas Hoffmann,Key Account Mgmt,T-311,2026-09-14,Hotel,Lakeshore Inn,Chicago,US,3,741.00,USD,yes,
+E043,Jonas Hoffmann,Key Account Mgmt,T-311,2026-09-14,Meals,Various,Chicago,US,,49.80,USD,yes,
+E044,Jonas Hoffmann,Key Account Mgmt,T-311,2026-09-15,Meals,Various,Chicago,US,,63.50,USD,yes,
+E045,Jonas Hoffmann,Key Account Mgmt,T-311,2026-09-16,Meals,Various,Chicago,US,,57.20,USD,yes,
+E046,Jonas Hoffmann,Key Account Mgmt,T-311,2026-09-17,Taxi,Windy City Rides,Chicago,US,,41.00,USD,yes,
+E047,Laura Schmidt,Operations,T-312,2026-09-22,Flight,Northsea Airways,Hamburg,DE,,189.00,EUR,yes,economy
+E048,Laura Schmidt,Operations,T-312,2026-09-22,Hotel,Hotel Isarblick,Munich,DE,2,318.00,EUR,yes,
+E049,Laura Schmidt,Operations,T-312,2026-09-22,Meals,Various,Munich,DE,,36.40,EUR,yes,
+E050,Laura Schmidt,Operations,T-312,2026-09-23,Meals,Various,Munich,DE,,41.70,EUR,yes,
+E051,Laura Schmidt,Operations,T-312,2026-09-24,Taxi,Isar Taxi,Munich,DE,,31.20,EUR,yes,
+E052,Sofia Rossi,Procurement,T-313,2026-09-24,Train,DB Fernverkehr,Hamburg,DE,,118.60,EUR,yes,
+E053,Sofia Rossi,Procurement,T-313,2026-09-24,Hotel,Mainufer Hotel,Frankfurt,DE,1,149.00,EUR,yes,
+E054,Sofia Rossi,Procurement,T-313,2026-09-24,Meals,Various,Frankfurt,DE,,29.40,EUR,yes,
+E055,Tobias Wendt,Operations,T-314,2026-09-28,Train,DB Fernverkehr,Hamburg,DE,,84.90,EUR,yes,
+E056,Tobias Wendt,Operations,T-314,2026-09-28,Hotel,Spree Residenz,Berlin,DE,1,148.00,EUR,yes,
+E057,Tobias Wendt,Operations,T-314,2026-09-28,Meals,Various,Berlin,DE,,39.60,EUR,yes,
+E058,Anna Becker,Sales,T-309,2026-09-02,Train,DB Fernverkehr,Hamburg,DE,,129.90,EUR,yes,customer visit Hannover
+E059,Tobias Wendt,Operations,T-314,2026-09-29,Parking,P+R Hauptbahnhof,Hamburg,DE,,18.00,EUR,yes,
+E060,David Owusu,IT,T-315,2026-09-30,Taxi,Hansa Taxi,Hamburg,DE,,23.80,EUR,yes,

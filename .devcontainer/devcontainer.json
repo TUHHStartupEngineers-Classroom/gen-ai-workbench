@@ -1,0 +1,24 @@
+{
+  "name": "gen-ai workbench",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "22" }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "secrets": {
+    "OPENROUTER_API_KEY": {
+      "description": "Your personal, capped course key from the instructor's e-mail. Store it as a Codespaces user secret, never in a file.",
+      "documentationUrl": "https://www.gen-ai.startupengineer.io/sessions/02_agent_workbench/setup.html"
+    }
+  },
+  "hostRequirements": { "cpus": 2 },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "git.autofetch": true,
+        "git.confirmSync": false,
+        "files.trimTrailingWhitespace": false
+      }
+    }
+  }
+}
