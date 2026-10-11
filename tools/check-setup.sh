@@ -65,7 +65,7 @@ explain_status() {
   case "$1" in
     200) ok "OpenRouter accepted your key" ;;
     401) fail "OpenRouter says the key is invalid (401). Check for a typo in the secret, or ask the instructor." ;;
-    402) fail "Your key has no credit left (402). Request a top-up (see setup page)." ;;
+    402) fail "Your key has no credit left (402). E-mail the instructor (see setup page)." ;;
     403) fail "OpenRouter refused the key (403). It may be disabled or expired. Ask the instructor." ;;
     429) warn "OpenRouter is rate-limiting right now (429). Wait a minute and try again." ;;
     000) fail "Could not reach openrouter.ai. Check the internet connection of your Codespace." ;;

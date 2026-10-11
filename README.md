@@ -2,7 +2,7 @@
 
 **Generative AI for Managers, WS 2026/27.** Your personal workbench for all individual assignments (A2 to A11).
 
-You work here in a GitHub Codespace with a coding agent (OpenCode) and a capped OpenRouter key. Step-by-step setup, troubleshooting, and top-up rules:
+You work here in a GitHub Codespace with a coding agent (OpenCode) and a capped OpenRouter key. Step-by-step setup, troubleshooting, and budget rules:
 <https://www.gen-ai.startupengineer.io/sessions/02_agent_workbench/setup.html>
 
 ## Quick start
