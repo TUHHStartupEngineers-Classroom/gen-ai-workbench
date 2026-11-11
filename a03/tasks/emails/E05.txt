@@ -1,0 +1,20 @@
+From: Søren Lund <s.lund@lund-energy.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-08
+Subject: O-rings for biodiesel application
+
+Dear Sir or Madam,
+
+we are evaluating sealing materials for a new biodiesel transfer pump and are considering your NBR O-rings, article 30-2240 (70 Shore A).
+
+Two questions:
+1. Is NBR resistant to biodiesel (B100) at temperatures up to 80 °C in continuous operation, or would you recommend FKM instead?
+2. Can you send us a technical datasheet with the chemical resistance table?
+
+Our project team decides on the material at the end of next week, so we need your answer by then.
+
+Kind regards
+Søren Lund
+Process Engineer
+Lund Energy Systems A/S
+Esbjerg, Denmark

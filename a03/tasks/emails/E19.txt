@@ -1,0 +1,16 @@
+From: Femke Visser <f.visser@visser-installatie.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-23
+Subject: VAT number missing on invoice
+
+Dear madam, sir,
+
+on your invoice RE-2026-11804 our VAT identification number is missing. For intra-community deliveries our accountant needs it on the invoice, otherwise we can not book the invoice without German VAT.
+
+Our VAT ID is NL859012345B01. Can you please send us a corrected invoice with the VAT ID on it?
+
+Thank you very much.
+Femke Visser
+Administratie
+Visser Installatietechniek B.V.
+Zwolle

@@ -1,0 +1,18 @@
+From: Pawel Zielinski <p.zielinski@zielinski-logistyka.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-30
+Subject: Return – wrong glove size ordered (SO-226118)
+
+Dear customer service,
+
+with order SO-226118 (our PO 2026-1415) we received 4 pallets of nitrile gloves size M. Unfortunately our buyer ordered the wrong size – we needed size L. This was our mistake, your delivery matches the order.
+
+Can you please collect the 4 pallets and refund us? We accept your restocking fee of 10 %. The order value was EUR 3,480.00, so after deducting the fee we expect a refund of EUR 3,132.00.
+
+If you have size L in stock we will place a new order separately.
+
+Kind regards
+Pawel Zielinski
+Purchasing
+Zielinski Logistyka Sp. z o.o.
+Customer ID: K-46640

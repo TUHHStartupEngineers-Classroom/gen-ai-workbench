@@ -1,0 +1,16 @@
+From: Pieter van Dijk <p.vandijk@vandermolen-machinebouw.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-01
+Subject: Order RB-55120 – delivery date?
+
+Dear Rhinebolt sales team,
+
+last week we ordered 2,000 flange bolts M12 and 500 self-locking nuts from you (your order confirmation RB-55120, our reference VM-3381). Your confirmation says delivery in week 41, but our planner needs the parts at our Venlo workshop by Friday 9 October at the latest.
+
+Could you please check with your warehouse and send us the tracking number as soon as it is available? Please also send the invoice to our new address for accounts payable (facturen@vandermolen-machinebouw.example).
+
+Thank you and kind regards,
+Pieter van Dijk
+Inkoop / Purchasing
+Van der Molen Machinebouw B.V.
+Venlo, Netherlands

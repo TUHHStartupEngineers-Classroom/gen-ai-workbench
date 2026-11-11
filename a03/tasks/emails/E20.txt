@@ -1,0 +1,18 @@
+From: Mette Holm <m.holm@holm-maskinfabrik.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-06
+Subject: Defective pneumatic cylinder – warranty return
+
+Hello,
+
+one of the pneumatic cylinders (ISO 15552, bore 50, stroke 200) from order SO-212980 started leaking at the piston rod seal after only three weeks in operation. The cylinder was installed according to the manual and runs with filtered, oiled air at 6 bar.
+
+We would like to send it back under warranty and receive a replacement. The unit price was EUR 189.00. For now we have installed a spare from our own stock, so the machine is running.
+
+Please send us an RMA number and the return address.
+
+Med venlig hilsen / Best regards
+Mette Holm
+Maintenance Supervisor
+Holm Maskinfabrik A/S
+Customer no. K-49015

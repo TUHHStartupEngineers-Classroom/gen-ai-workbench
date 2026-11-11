@@ -1,0 +1,24 @@
+From: Monika Reiter <m.reiter@reiter-verpackung.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-16
+Subject: Double freight charge – SO-210377 / SO-210402
+
+Dear Nordhafen accounting team,
+
+we received two invoices this week:
+
+- RE-2026-11930 for order SO-210377, total EUR 1,980.40
+- RE-2026-11931 for order SO-210402, total EUR 726.15
+
+Both orders were shipped together in one consignment on 6 October (same delivery note), but each invoice contains a freight charge of EUR 45.00. Please credit one of the two freight charges, i.e. EUR 45.00, and send us the credit note.
+
+We will pay both invoices within the agreed payment terms but deduct nothing ourselves, because our auditors prefer a proper credit note over short payments. Please make sure the credit note refers to one of the two invoice numbers above, otherwise our system cannot match it automatically and someone in our team has to book it by hand.
+
+If you combine shipments more often in the future, it would help us a lot if freight were charged only once per consignment.
+
+For reference: in our ERP system you are listed under vendor no. 30021. Our customer account with you is K-45063.
+
+Thank you and best regards
+Monika Reiter
+Accounts Payable
+Reiter Verpackung GmbH, Graz

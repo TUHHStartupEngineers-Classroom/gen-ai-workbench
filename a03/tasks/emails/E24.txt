@@ -1,0 +1,15 @@
+From: Rasmus Kjær <r.kjaer@kjaer-vvs.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-11-02
+Subject: Reminder for invoice RE-2026-10988 – already paid
+
+Hello,
+
+today we received a payment reminder for invoice RE-2026-10988 over EUR 2,340.00. We paid this invoice in full on 2 October 2026 by bank transfer, with the invoice number as payment reference.
+
+Could you please check your payment records and confirm that the reminder can be ignored? If you need it, I can send you a copy of the bank statement.
+
+Best regards
+Rasmus Kjær
+Bookkeeping
+Kjær VVS ApS

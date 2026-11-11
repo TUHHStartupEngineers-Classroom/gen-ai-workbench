@@ -1,0 +1,16 @@
+From: Tomasz Kaczmarek <t.kaczmarek@kaczmarek-plastics.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-11-05
+Subject: Air leaks at new fittings – which thread sealant?
+
+Hello,
+
+we installed the brass fittings from order SO-218004 on our compressed air distribution yesterday. Since this morning the pressure drops at several connections and our injection moulding line 3 is standing still because the robots don't get enough air.
+
+The fittings themselves look fine. I think the problem is the sealing of the threads (R 1/2 into a cast iron manifold). Which thread sealant or tape do you recommend for these fittings, and should we use a sealing ring instead?
+
+Please call me: +48 61 000 4471.
+
+Tomasz Kaczmarek
+Maintenance
+Kaczmarek Plastics Sp. z o.o.

@@ -1,0 +1,15 @@
+From: Krzysztof Wiśniewski <k.wisniewski@baltic-hvac.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-21
+Subject: Delivery SO-225430 not received – tracking says delivered
+
+Hello,
+
+the tracking for our order SO-225430 (brass push-in fittings, 600 pcs) shows "delivered" on 20.10.2026, signed by "Kowal". We have no employee with this name and nothing arrived at our Gdańsk warehouse. I checked with reception and with the neighbouring companies.
+
+We need these fittings for a customer installation on Thursday, our technicians are already booked. Please start an investigation with the carrier and send the goods again as soon as possible.
+
+Regards,
+Krzysztof Wiśniewski
+Warehouse & Logistics
+Baltic HVAC Sp. z o.o.

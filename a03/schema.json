@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "category": { "type": "string" },
+    "urgency": { "type": "string" },
+    "customer_id": { "type": "string" },
+    "order_numbers": { "type": "string" },
+    "amount_eur": { "type": "string" },
+    "deadline": { "type": "string" },
+    "language": { "type": "string" }
+  },
+  "required": ["category", "urgency", "customer_id", "order_numbers", "amount_eur", "deadline", "language"],
+  "additionalProperties": false
+}

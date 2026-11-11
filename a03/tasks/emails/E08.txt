@@ -1,0 +1,17 @@
+From: Lukas Hofer <l.hofer@hofer-stahlbau.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-07
+Subject: Wrong bolts delivered – SO-218830
+
+Hi,
+
+we received order SO-218830 yesterday. We ordered hex bolts DIN 933 M10x40, grade 8.8, zinc plated (1,000 pcs). What we got is stainless steel A2, same size. The label on the boxes is correct, the content is not.
+
+I'd like to return these and get the zinc plated ones instead, we can't use stainless for this job because of the welding process downstream. The invoice for the order was EUR 412.60, which is fine, as long as we get the right parts.
+
+Please arrange pickup of the wrong boxes and let me know when the correct bolts can be shipped.
+
+Best,
+Lukas Hofer
+Lager & Einkauf
+Hofer Stahlbau GmbH, Villach

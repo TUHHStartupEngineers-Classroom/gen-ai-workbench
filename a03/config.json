@@ -1,0 +1,8 @@
+{
+  "model": "anthropic/claude-haiku-5.5",
+  "reasoning": "none",
+  "max_tokens": 2000,
+  "concurrency": 4,
+  "price_in_per_m": 0.10,
+  "price_out_per_m": 0.50
+}

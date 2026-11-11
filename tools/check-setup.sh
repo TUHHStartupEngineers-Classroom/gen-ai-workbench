@@ -144,7 +144,17 @@ if command -v opencode >/dev/null 2>&1; then
 else
   fail "opencode not found. Run: bash .devcontainer/post-create.sh"
 fi
-if [ -f opencode.json ]; then ok "opencode.json found (default model and permissions)"; else warn "opencode.json missing in this folder. Run this script from the repository root."; fi
+if [ -f opencode.json ]; then
+  ok "opencode.json found (default model and permissions)"
+  # OpenCode reads the secret only if the value keeps its curly braces.
+  if grep -q '"apiKey": *"{env:OPENROUTER_API_KEY}"' opencode.json; then
+    ok "opencode.json reads your key from the secret"
+  else
+    fail "opencode.json does not read your key. Open opencode.json and make the line exactly:  \"apiKey\": \"{env:OPENROUTER_API_KEY}\"  (keep the curly braces; ignore an editor warning there). Without them OpenCode reports 'Missing Authentication header'."
+  fi
+else
+  warn "opencode.json missing in this folder. Run this script from the repository root."
+fi
 DEFAULT_MODEL="openrouter/anthropic/claude-haiku-5.5"
 if command -v opencode >/dev/null 2>&1; then
   if opencode models openrouter 2>/dev/null | grep -qx "$DEFAULT_MODEL"; then

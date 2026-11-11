@@ -1,0 +1,16 @@
+From: Lars Bach <l.bach@bach-foodtech.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-14
+Subject: Shore hardness + 3.1 certificate for O-rings 30-2250
+
+Hi,
+
+quick question regarding your O-rings article 30-2250 (FKM, 25x3 mm): what is the Shore A hardness of this material, and is it FDA compliant for contact with fatty foods?
+
+For our quality documentation we also need an inspection certificate 3.1 according to EN 10204 with the next delivery. Is that possible?
+
+Thanks a lot,
+Lars Bach
+Quality Engineer
+Bach Foodtech A/S
+Kundennr. / customer no.: K-44517

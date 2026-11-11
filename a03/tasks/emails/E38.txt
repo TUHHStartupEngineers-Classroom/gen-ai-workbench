@@ -1,0 +1,19 @@
+From: Ulla Hansen <u.hansen@hansen-landmaskiner.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-11-03
+Subject: Re: Order confirmations
+
+Hi Tobias,
+
+thanks for the confirmations. Can you please give me the expected delivery dates for SO-227310 and SO 227355? Both are needed for our spring production, I just need the dates for our planning.
+
+Best,
+Ulla Hansen
+Hansen Landmaskiner A/S
+Customer no. K-40319
+
+> On 28 Oct 2026, Tobias Brandt wrote:
+> Dear Ms. Hansen,
+> please find attached the order confirmations for SO-227310 and SO-227355.
+> Your order SO-226980 was delivered on 26 October.
+> Best regards, Tobias

@@ -1,0 +1,20 @@
+From: Sabine Krämer <s.kraemer@kraemer-antriebstechnik.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-09
+Subject: Liefertermine offene Bestellungen
+
+Guten Tag,
+
+für unsere Wochenplanung benötige ich bitte die aktuellen Liefertermine zu folgenden Aufträgen:
+
+- SO-211874 (unsere Bestellnr. 45-7781) – Rillenkugellager 6305
+- SO-212003 (unsere Bestellnr. 45-7790) – Pneumatik-Steckverbinder 8 mm
+- SO-212519 (unsere Bestellnr. 45-7802) – Sechskantschrauben M8x30
+
+In Ihren Auftragsbestätigungen stand jeweils "Liefertermin folgt". Eine kurze Rückmeldung per Mail reicht völlig.
+
+Vielen Dank und ein schönes Wochenende
+Sabine Krämer
+Einkauf
+Krämer Antriebstechnik GmbH & Co. KG
+Kundennr.: K-42290

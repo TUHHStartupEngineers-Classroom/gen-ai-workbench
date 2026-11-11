@@ -1,0 +1,19 @@
+From: Hauke Brodersen <h.brodersen@werft-eckernfoerde.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-14
+Subject: Lieferung SO-217702 – Kartons fehlen
+
+Moin,
+
+heute früh kam die Lieferung zu Auftrag SO-217702 bei uns an, allerdings nur 4 von 6 Kartons. Es fehlen die beiden Kartons mit den Radialwellendichtringen 45x62x8.
+
+Unsere Montagelinie 2 steht deshalb seit 7 Uhr still, die Kollegen können die Getriebe nicht schließen. Wir brauchen die fehlenden Teile spätestens morgen hier im Werk, sonst verschiebt sich die Auslieferung an unseren Kunden.
+
+Bitte prüfen Sie, ob die Kartons noch bei Ihnen im Lager stehen oder bei der Spedition hängen geblieben sind, und geben Sie mir kurz Bescheid.
+
+Gruß
+Hauke Brodersen
+Instandhaltung / Betriebstechnik
+Werft Eckernförde GmbH
+Kd.-Nr. 40213
+Tel. 04351 0000-217

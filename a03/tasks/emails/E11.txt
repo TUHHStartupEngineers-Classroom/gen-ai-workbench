@@ -1,0 +1,28 @@
+From: Erik Sørensen <e.sorensen@sorensen-marine.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-19
+Subject: RE: Shipping confirmation
+
+Hello Mr. Brandt,
+
+thank you, the tracking works and the parcel arrived this morning.
+
+One more question: we also have order SO-219044 open with you (the stainless shackles). Can you tell me when that one will ship? Our order confirmation says "October", but nothing has arrived yet.
+
+Best regards
+Erik Sørensen
+Sørensen Marine ApS, Aarhus
+
+-----Original Message-----
+From: Tobias Brandt <t.brandt@nordhafen-industriebedarf.example>
+Sent: Thursday, 15 October 2026 14:12
+To: Erik Sørensen
+Subject: Shipping confirmation
+
+Dear Mr. Sørensen,
+
+your order SO-216611 (customer no. K-40552) left our warehouse today with the parcel service, tracking number 00340434161234567890. Delivery is expected on Monday.
+
+Kind regards
+Tobias Brandt
+Customer Service, Nordhafen Industriebedarf GmbH

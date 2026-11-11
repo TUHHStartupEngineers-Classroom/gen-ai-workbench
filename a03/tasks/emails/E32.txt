@@ -1,0 +1,15 @@
+From: Joris Bakker <j.bakker@bakker-kassenbouw.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-30
+Subject: Push-in fittings with PE tube?
+
+Hello,
+
+we are designing an irrigation control cabinet and want to use your push-in fittings series PF-8 (tube OD 8 mm). Your catalogue only mentions PA and PU tubing. Can we use them with PE tube 8x6 mm as well, and is the holding force the same? The system pressure is max. 4 bar at 20 °C.
+
+I need your answer by Monday, because the parts list goes to our customer for approval on that day.
+
+Thanks and have a nice weekend,
+Joris Bakker
+Engineering
+Bakker Kassenbouw B.V.

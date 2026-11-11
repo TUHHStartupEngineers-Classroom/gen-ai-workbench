@@ -1,0 +1,16 @@
+From: Viktoria Lang <v.lang@lang-armaturen.example>
+To: service@nordhafen-industriebedarf.example
+Date: 2026-10-27
+Subject: Status of our order 4500018832
+
+Dear Nordhafen team,
+
+could you please give me an update on our purchase order 4500018832 dated 12 October? It contains 300 sets of flange gaskets DN50 and 300 sets DN80. I couldn't find an order confirmation from you in our system, so I'm not sure if the order was received at all.
+
+If you have it, please send me the order confirmation with your order number and the expected delivery date.
+
+Thank you,
+Viktoria Lang
+Purchasing Assistant
+Lang Armaturen GmbH
+K-47208
