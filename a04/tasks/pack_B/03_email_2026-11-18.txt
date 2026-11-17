@@ -1,0 +1,11 @@
+From: Petra Gosch <p.gosch@nordhafen-industriebedarf.example>
+To: Project leads <projektleitung@nordhafen-industriebedarf.example>
+Date: 2026-11-18
+Subject: CRM data cleanup – status KW 47
+
+Dear colleagues,
+
+640 duplicate customer records remain in the CRM data cleanup; finishing them moves from 27 Nov to 18 Dec because the external data service is short of staff. The extra weeks cost about €7,800, which I will put to Dr. Marquardt for approval next week.
+
+Best regards
+Petra Gosch, Sales Operations

@@ -1,0 +1,8 @@
+Team chat · Customer portal (export)
+
+[2026-11-18 10:05] Miriam Hollander: Daniel, has Pixelwerft priced the change requests yet?
+[2026-11-18 10:30] Daniel Asante: Almost. I'll send you a summary by e-mail tomorrow.
+[2026-11-19 09:12] Svenja Klatt: Correction to the beta number in Tuesday's notes: I misread the dashboard. 46 of 80 pilot customers have registered, not 64. I'll send a reminder to the others today.
+[2026-11-19 09:15] Miriam Hollander: Thanks, noted.
+[2026-11-19 16:30] Svenja Klatt: The beta feedback list is in the project folder (23 items so far).
+[2026-11-19 17:05] Rainer Bock: This week's budget note is in the project folder.

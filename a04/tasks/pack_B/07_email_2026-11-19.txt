@@ -1,0 +1,13 @@
+From: Daniel Asante <d.asante@nordhafen-industriebedarf.example>
+To: Miriam Hollander <m.hollander@nordhafen-industriebedarf.example>
+Date: 2026-11-19
+Subject: Pixelwerft change requests from the beta
+
+Hi Miriam,
+
+Pixelwerft will move the invoice download to the start page on 24 Nov. The new order-history filter comes with the January release, which Lukas Brenner will plan with a new lead developer, as ours leaves Pixelwerft at the end of December.
+
+Sales has asked for an English version of the portal for our Danish and Dutch customers. Pixelwerft quotes €11,400. This is not in the project budget, so it needs Dr. Marquardt's approval. Pixelwerft needs the go-ahead by Wed 25 Nov to have it ready for the launch.
+
+Best,
+Daniel

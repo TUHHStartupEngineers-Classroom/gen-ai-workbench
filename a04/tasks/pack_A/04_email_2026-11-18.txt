@@ -1,0 +1,14 @@
+From: Dirk Matthiesen <d.matthiesen@scantec-nord.example>
+To: Jonas Reimers <j.reimers@nordhafen-industriebedarf.example>
+Date: 2026-11-18
+Subject: Your order – 40 HS-40 handheld scanners
+
+Dear Mr Reimers,
+
+thank you for your order. I can now confirm the delivery week: we will deliver all 40 scanners to Billbrook in calendar week 51, in one shipment. We will tell you the exact day one week before delivery.
+
+Please send us the IP address range for the new site by 1 December so we can finish the configuration.
+
+Kind regards
+Dirk Matthiesen
+ScanTec Nord GmbH, Norderstedt

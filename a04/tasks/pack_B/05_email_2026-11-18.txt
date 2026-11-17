@@ -1,0 +1,14 @@
+From: Nora Wendt <n.wendt@kaispeicher-security.example>
+To: Miriam Hollander <m.hollander@nordhafen-industriebedarf.example>
+Date: 2026-11-18
+Subject: Your order – penetration test of the customer portal
+
+Dear Ms Hollander,
+
+thank you for your order. I can now confirm the test week: our team will test your customer portal in calendar week 51. You will receive the written report at the end of that week.
+
+Please send us test accounts for three customer roles by 7 December so we can prepare.
+
+Kind regards
+Nora Wendt
+Kaispeicher Security GmbH, Hamburg
