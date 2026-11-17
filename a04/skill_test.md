@@ -1,6 +1,6 @@
 # Trigger test
 
-A good skill loads when the request matches its description, and only then. Test it with two requests, each in a **fresh session**: quit OpenCode and start it again from the repository root before each request.
+A good skill loads when the request matches its description, and only then. Use `pack_B` for this test. Test it with two requests, each in a **fresh session**: quit OpenCode and start it again from the repository root before each request.
 
 Evidence that the skill loaded: the report ends with the footer line `Prepared with skill: status-report v<n>`, and the OpenCode window shows a call of the `skill` tool for `status-report` (if your window shows tool calls). Report what you saw, not what you expected.
 
@@ -31,7 +31,7 @@ Paste the `description` line from `.agents/skills/status-report/SKILL.md` exactl
 Reword the request: not the lab request word for word, and not naming the skill. Save the output as `a04/output/trigger_match.md`. Example:
 
 ```text
-Our managing director needs this week's update for the project in a04/tasks/pack_A/. Please save it as a04/output/trigger_match.md.
+Our managing director needs this week's update for the project in a04/tasks/pack_B/. Please save it as a04/output/trigger_match.md.
 ```
 
 - Request (exact text):
@@ -41,7 +41,7 @@ Our managing director needs this week's update for the project in a04/tasks/pack
 
 ## 4. Near-miss request (should NOT load the skill)
 
-A near miss is a request close to the task that must not trigger the skill, for example summarising one single e-mail from a pack, or a different kind of document. If it writes a file, save it as `a04/output/trigger_nearmiss.md`.
+A near miss is a request close to the task that must not trigger the skill, for example summarising one single e-mail from `pack_B`, or a different kind of document. If it writes a file, save it as `a04/output/trigger_nearmiss.md`.
 
 - Request (exact text):
 - Footer line in the output? (yes / no):

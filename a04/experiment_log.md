@@ -1,73 +1,80 @@
 # A4 experiment log
 
-Fill this in during the lab, as you go. Report the numbers as measured, including unfavourable ones: an honest result that AI did not save time earns full marks.
+Fill this in during the lab, as you go. Report the numbers as measured, including unfavourable ones: an honest result that the skill did not save time, or that your forecast was off, earns full marks.
 
 **Name:**
 **Partner (GitHub username):**
 
-## 1. Coin flips
+## 1. Forecast (before the timed run)
 
-Fill in before any timed work, then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-coins`. For the class form, code heads as 1 and tails as 0.
+Three whole numbers of minutes, for the pack A report. Write them before the skill build, then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-forecast`. Do not change them afterwards.
 
-| Coin | Result (heads / tails) | Meaning |
-|:-----|:----------------------:|:--------|
-| 1: which pack gets AI | | heads: `pack_A` with AI, `pack_B` by hand · tails: `pack_B` with AI, `pack_A` by hand |
-| 2: order | | heads: AI first · tails: by hand first |
+| Field | Minutes |
+|:------|--------:|
+| `F_manual`: this report by hand | |
+| `F_ai_total`: with your skill, checking included | |
+| `F_ai_check`: of which checking | |
 
-**My plan:** condition 1 = ______ on pack ___ · condition 2 = ______ on pack ___
+## 2. Timed run (AI, pack A)
 
-## 2. Skill build time (fixed cost)
+Times from `output/laps.csv` (or your stopwatch). `lap.sh ai stop` prints the minutes.
 
-t_build = Hands-on 2 + lab build + home v2. The lab build starts at the time of your `a04-coins` commit and ends at your `a04-skill-v1` commit; read both with `git log --date=iso --format=%ad%x20%s`.
+**Felt estimate first.** When every checklist item is ticked, and **before** you run `bash a04/tools/lap.sh ai stop`, write how many minutes the whole run felt like. Do not look at the clock or the laps first.
 
-| Part | Start | End | Minutes |
-|:-----|:------|:----|--------:|
-| Hands-on 2 (block 1; your estimate) | | | |
-| Lab build (`a04-coins` commit → `a04-skill-v1` commit) | | | |
-| Home v2 (and later versions) | | | |
-| **t_build (total)** | | | |
+| `R_ai_total`: felt minutes for the whole run | |
+|:--|--:|
 
-## 3. Timed runs
+| | |
+|:--|:--|
+| Output file | `a04/output/ai_pack_A.md` |
+| Start (time) | |
+| Verify (time: OpenCode has written the file and returned the prompt) | |
+| Stop (time) | |
+| Measured drafting minutes (start → verify) | |
+| Measured checking minutes (verify → stop) | |
+| Measured total minutes | |
+| Finished within 15 min? (yes / 15+ with share of sections done) | |
+| Where (lab / home) | |
+| Timing source (lap.sh / stopwatch / estimate) | |
+| Model (if not Haiku 5.5) | |
+| Skill version used (footer) | |
+| Anything unusual (interruptions, key facts seen early) | |
 
-Times from `output/laps.csv` (or your stopwatch). `lap.sh` prints the minutes on `stop`. The skill was not changed between the two runs (yes / no):
+**Send-ready checklist** (`send_ready_checklist.md`; x = ticked before `stop`):
 
-| | Condition 1 | Condition 2 |
-|:--|:--|:--|
-| Condition (manual / ai) | | |
-| Pack | | |
-| Output file | | |
-| Start (time) | | |
-| Verify (time, ai only: OpenCode has written the file and returned the prompt) | | |
-| Stop (time) | | |
-| Total minutes | | |
-| AI only: drafting minutes (start → verify) | | |
-| AI only: checking minutes (verify → stop) | | |
-| Finished within 15 min? (yes / 15+ with share of sections done) | | |
-| Where (lab / home) | | |
-| Timing source (lap.sh / stopwatch / estimate) | | |
-| Model (if not Haiku 5.5) | | |
-| Anything unusual (Copilot appeared, key facts seen early, interruptions) | | |
+| # | Item | Ticked |
+|--:|:-----|:------:|
+| 1 | Every section filled in | |
+| 2 | Status colour justified by a fact | |
+| 3 | Every number and date matches a source file | |
+| 4 | No statement without a source | |
+| 5 | Unknown items marked as open | |
+| 6 | Decisions needed stated with a date | |
+| 7 | Nothing from other projects | |
+| 8 | One page, readable without the sources | |
 
-Commits: `a04-run1` after condition 1, `a04-run2` after condition 2 (always `git add a04 .agents AGENTS.md` first).
+Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-run`.
 
-## 4. Send-ready checklist
+## 3. Partner quality score
 
-Tick each item of `send_ready_checklist.md` for each report (x = ticked).
+**Filled in by your partner, on your laptop** (swap laptops; in a group of three, rotate), with the printed key-fact sheet for pack A, after your timed run was logged. 4 minutes. Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-scores`.
 
-| # | Item | Manual | AI |
-|--:|:-----|:------:|:--:|
-| 1 | Every section filled in | | |
-| 2 | Status colour justified by a fact | | |
-| 3 | Every number and date matches a source file | | |
-| 4 | No statement without a source | | |
-| 5 | Unknown items marked as open | | |
-| 6 | Decisions needed stated with a date | | |
-| 7 | Nothing from other projects | | |
-| 8 | One page, readable without the sources | | |
+Scored by (partner's GitHub username):
 
-## 5. Errors found while checking the AI report
+| | `ai_pack_A.md` |
+|:--|:--:|
+| Key facts correct (0–10) | |
+| Errors (each wrong or invented statement, and anything the sheet lists as an error if stated) | |
+| **Quality = key facts correct − errors** | |
+| Send-ready (yes / no) | |
+| Disputed points (author, with the quote from the pack) | |
 
-One row per error you found during the checking time (and any you or your partner found later; mark those "later").
+Key facts seen before the timed run? (yes / no):
+Integers entered into the class form? (yes / no):
+
+## 4. Errors found while checking
+
+One row per error you found in the AI report during the checking time (and any you or your partner found later; mark those "later").
 
 | # | What was wrong in the AI report | How I found it (which source file) | Fixed by hand or by re-prompting? | Which skill step or check would have prevented it? |
 |--:|:--------------------------------|:-----------------------------------|:----------------------------------|:---------------------------------------------------|
@@ -75,19 +82,28 @@ One row per error you found during the checking time (and any you or your partne
 | 2 | | | | |
 | 3 | | | | |
 
-## 6. Partner quality scores
+## 5. Skill build time (fixed cost)
 
-**Filled in by your partner, on your laptop** (swap laptops; in a group of three, rotate), with the printed key-fact sheet, after both timed runs were logged. 4 minutes per report. Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-scores`.
+t_build = Hands-on 2 + lab build + home v2. The lab build starts at the time of your `a04-forecast` commit and ends at your `a04-skill-v1` commit; read both with `git log --date=iso --format=%ad%x20%s`.
 
-Scored by (partner's GitHub username):
+| Part | Start | End | Minutes |
+|:-----|:------|:----|--------:|
+| Hands-on 2 (block 1; your estimate) | | | |
+| Lab build (`a04-forecast` commit → `a04-skill-v1` commit) | | | |
+| Home v2 (and later versions) | | | |
+| **t_build (total)** | | | |
 
-| | Manual (pack ___) | AI (pack ___) |
-|:--|:--:|:--:|
-| Key facts correct (0–10) | | |
-| Errors (each wrong or invented statement, and anything the sheet lists as an error if stated) | | |
-| **Quality = key facts correct − errors** | | |
-| Send-ready (yes / no) | | |
-| Disputed points (author, with the quote from the pack) | | |
+## 6. Comparison (fill in after class)
 
-Key facts seen before a timed run? (yes / no, which run):
-Integers entered into the class form? (yes / no):
+The instructor baseline is the instructor's measured hand time on pack A, shown on the debrief slide.
+
+| | Forecast | Measured | Felt |
+|:--|--:|--:|--:|
+| AI total minutes | `F_ai_total` = | | `R_ai_total` = |
+| AI checking minutes | `F_ai_check` = | | |
+| Checking share of the AI total (%) | | | |
+
+| Manual time | Minutes |
+|:--|--:|
+| My forecast `F_manual` | |
+| Instructor baseline (measured, pack A) | |

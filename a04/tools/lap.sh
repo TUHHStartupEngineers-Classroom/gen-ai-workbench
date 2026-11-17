@@ -2,8 +2,6 @@
 # lap.sh: writes one timestamp for the A4 time experiment into a04/output/laps.csv.
 #
 # Usage (from the repository root):
-#   bash a04/tools/lap.sh manual start    # you open the first pack file
-#   bash a04/tools/lap.sh manual stop     # every checklist item is ticked
 #   bash a04/tools/lap.sh ai start        # you send the request to OpenCode
 #   bash a04/tools/lap.sh ai verify       # the report file is written; checking starts
 #   bash a04/tools/lap.sh ai stop         # every checklist item is ticked
@@ -18,8 +16,7 @@ set -u
 usage() {
   echo "Usage: bash a04/tools/lap.sh <condition> <event>"
   echo
-  echo "  condition:  manual   (writing the report by hand)"
-  echo "              ai       (OpenCode writes the report, you check it)"
+  echo "  condition:  ai       (OpenCode writes the report, you check it)"
   echo "  event:      start    (the clock starts)"
   echo "              verify   (ai only: the report file is written, you start checking)"
   echo "              stop     (every item of a04/send_ready_checklist.md is ticked)"
@@ -34,7 +31,7 @@ event="$(printf '%s' "$2" | tr '[:upper:]' '[:lower:]')"
 
 case "$condition" in
   manual|ai) ;;
-  *) echo "Unknown condition: $1 (use manual or ai)"; echo; usage ;;
+  *) echo "Unknown condition: $1 (use ai)"; echo; usage ;;
 esac
 case "$event" in
   start|verify|stop) ;;

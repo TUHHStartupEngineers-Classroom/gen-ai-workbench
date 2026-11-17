@@ -4,19 +4,18 @@ Does `voice.md` make the reports sound like you? You count the rule violations i
 
 Points: the violation counts alone (§1 and §5) earn up to 3 of the 5 voice points; the blind reader (§2–§4) is optional.
 
-## 1. Two runs on the same pack
+## 1. Two runs on pack B
 
-Use the same pack for both runs (the practice pack is fine). Each run in a fresh session: quit OpenCode and start it again from the repository root.
+Use `pack_B` for both runs. Each run in a fresh session: quit OpenCode and start it again from the repository root.
 
-1. **With `voice.md`:** run the skill and save as `a04/output/voice_with.md`.
-2. **Without `voice.md`:** park the file outside the skill folder (first command), start a fresh session, run again, save as `a04/output/voice_without.md`, then put the file back (second command) and start a fresh session again:
+1. **With `voice.md`:** `Write the weekly status report for the project in a04/tasks/pack_B/ and save it as a04/output/voice_with.md.`
+2. **Without `voice.md`:** park the file outside the skill folder (first command), start a fresh session, run the same request again, but save as `a04/output/voice_without.md`, then put the file back (second command) and start a fresh session again:
 
 ```bash
 mv .agents/skills/status-report/voice.md a04/voice_parked.md
 mv a04/voice_parked.md .agents/skills/status-report/voice.md
 ```
 
-Pack used:
 Skill version (footer) in both outputs:
 
 ## 2. Coin for X and Y (optional, with a blind reader)

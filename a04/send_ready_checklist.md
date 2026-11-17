@@ -1,6 +1,6 @@
 # Send-ready checklist
 
-A report is send-ready when all eight items are ticked. The same list applies to both conditions: stop the clock (`lap.sh ... stop`) only when every item is ticked. Note the ticks for each condition in `experiment_log.md` §4.
+A report is send-ready when all eight items are ticked. In the timed run, write your felt estimate and run `bash a04/tools/lap.sh ai stop` only when every item is ticked. Note the ticks in `experiment_log.md` §2.
 
 1. [ ] Every section of the template is filled in.
 2. [ ] The status colour is justified by a fact from the sources.

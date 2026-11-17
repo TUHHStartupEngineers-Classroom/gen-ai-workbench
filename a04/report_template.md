@@ -1,5 +1,5 @@
 <!--
-Shared report template for A4, used in both conditions so that the reports are comparable.
+Shared report template for A4, used by everyone so that the reports are comparable.
 One page, about 300 words. Replace every <...>; these comment lines do not go into the report.
 The last line is the footer; the number after "v" is the skill version.
 -->
