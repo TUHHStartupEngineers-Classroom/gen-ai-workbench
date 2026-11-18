@@ -95,7 +95,7 @@ t_build = Hands-on 2 + lab build + home v2. The lab build starts at the time of 
 
 ## 6. Comparison (fill in after class)
 
-The instructor baseline is the instructor's measured hand time on pack A, shown on the debrief slide.
+The manual baseline is an **estimate**, not a measured time: T_est ≈ 20 minutes to write the pack A report by hand until all eight checklist items are ticked (plausible range 15–25; reading ≈ 6, writing ≈ 12, checklist ≈ 2 minutes).
 
 | | Forecast | Measured | Felt |
 |:--|--:|--:|--:|
@@ -106,4 +106,4 @@ The instructor baseline is the instructor's measured hand time on pack A, shown 
 | Manual time | Minutes |
 |:--|--:|
 | My forecast `F_manual` | |
-| Instructor baseline (measured, pack A) | |
+| Manual baseline (estimated, pack A): T_est | 20 |

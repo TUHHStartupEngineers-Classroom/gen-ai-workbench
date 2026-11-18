@@ -180,7 +180,7 @@ git add a04 .agents AGENTS.md
 git commit -m a04-scores
 ```
 
-In the debrief you see the class numbers next to the instructor's measured hand time on pack A. Copy that baseline into `experiment_log.md` §6 for your reflection.
+In the debrief you see the class numbers next to an estimated hand time for pack A: T_est ≈ 20 minutes (plausible range 15–25). It is an estimate, not a measurement; it is already filled in `experiment_log.md` §6.
 
 ### After the lab (at home)
 
@@ -199,7 +199,7 @@ git push
 1. **Skill** (`.agents/skills/status-report/`): `SKILL.md` (frontmatter with a specific description; numbered steps; checks before answering; boundaries; where to save), `template.md`, `voice.md`, optional `example.md` (one good report for an invented project that is in none of the packs). Version 2 or later; the footer line `Prepared with skill: status-report v<n>` stays at the end of the template. No facts from any pack inside the skill.
 2. **Trigger test** (`skill_test.md`, pack B): excerpt of `opencode debug skill`; one matching request (reworded, output `a04/output/trigger_match.md`) and one near-miss request, each in a fresh session, with whether the skill loaded; if a test misfired, fixed and re-tested; otherwise a harder near-miss tested.
 3. **Time experiment** (`experiment_log.md` + `output/`): forecast committed before the run; laps (`laps.csv` or written times) with drafting and checking split; felt estimate; the report `ai_pack_A.md`; checklist ticked; partner quality score; every error found while checking; build time.
-4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the instructor baseline; comparison with the studies; three threats to validity; break-even computed twice (your `F_manual` and the instructor baseline as the manual time).
+4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the estimated baseline T_est; comparison with the studies; three threats to validity; break-even computed twice (your `F_manual` and the instructor baseline as the manual time).
 5. **Voice test** (`voice_test.md`, pack B): the two reports (with and without `voice.md`), rule violations counted in each; optionally a blind reader's pick with the X/Y coin (violation counts alone earn up to 3 of the 5 points).
 6. **Delegation matrix** (`delegation_matrix.md`): six plausible recurring tasks (own work or a realistic target role) with both axes justified, zones and decisions; one task split into sub-tasks; your next skill candidate with a break-even estimate.
 7. **Use-case scouting** (`scouting.md`): two or three candidate capstone use cases with all fields; your preferred one in one sentence (feeds team formation in S06).
@@ -217,7 +217,7 @@ git push
 
 ## Cost
 
-About $0.15–0.40 for the whole assignment (estimate: 12–15 agent tasks on Haiku 5.5 at about $0.01–0.03 each; the instructor pilot will replace this with a measured number). A fresh session for every task keeps the context, and the cost, small. Check your spend with `bash tools/check-setup.sh --usage`.
+About $0.15–0.40 for the whole assignment (12–15 agent tasks on Haiku 5.5; in the instructor test one pack A report cost about $0.01). A fresh session for every task keeps the context, and the cost, small. Check your spend with `bash tools/check-setup.sh --usage`.
 
 ## If something goes wrong
 
