@@ -150,9 +150,9 @@ Everyone runs the same pack, `pack_A`, with skill v1. Fresh session first (quit 
    OpenCode asks for permission before it writes the file: allow it (this is part of drafting).
 
 2. When OpenCode has written the file and returned the prompt, run `bash a04/tools/lap.sh ai verify`.
-3. Check the report against the source files and `send_ready_checklist.md`: read, fix by hand, or re-prompt; all of it counts as checking. Write every error you find into `experiment_log.md` §4 (what was wrong, how you found it).
+3. Check the report against the source files and `send_ready_checklist.md`: read, fix by hand, or re-prompt; all of it counts as checking. Keep a quick note of each error you find; you write them up after `stop`.
 4. When every checklist item is ticked, and **before** you run `stop`: write your felt estimate `R_ai_total` (how many minutes the whole run felt like) into `experiment_log.md` §2. Do not look at the clock or the laps first.
-5. Run `bash a04/tools/lap.sh ai stop`. It prints the total, drafting and checking minutes.
+5. Run `bash a04/tools/lap.sh ai stop`. It prints the total, drafting and checking minutes. Then, untimed, write every error you found into `experiment_log.md` §4 (what was wrong, how you found it).
 
 **The 20-minute backstop.** If you are not done after 20 minutes, stop and log **20+** as both the measured and the felt time (once you know 20 minutes have passed, a felt number is no longer a guess), with the share of sections done. 20 minutes is the estimated hand time, so a 20+ run saved nothing on time: a valid result, not a failure.
 
