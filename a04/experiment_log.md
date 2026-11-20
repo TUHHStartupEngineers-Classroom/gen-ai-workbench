@@ -66,7 +66,7 @@ Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-run`.
 | Send-ready (yes / no) | |
 
 Key facts seen before the timed run? (yes / no):
-Integers entered into the class form? (yes / no):
+Pushed after the `a04-scores` commit? (yes / no):
 
 ## 4. Errors found while checking
 

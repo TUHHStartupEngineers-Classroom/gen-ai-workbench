@@ -176,11 +176,12 @@ Do not look at the key facts before your timed run is logged; if it happens anyw
    - **quality = key facts correct − errors**;
    - send-ready: yes or no.
 3. Score strictly: a low, honest score costs nothing; a score that does not match your committed report does.
-4. Enter your integers into the anonymous class form, then commit:
+4. Commit and push. The debrief reads the class numbers from your repository (measured minutes from `output/laps.csv`, forecast, felt time and quality from this log) and shows only medians and counts:
 
 ```bash
 git add a04 .agents AGENTS.md
 git commit -m a04-scores
+git push
 ```
 
 In the debrief you see the class numbers next to an estimated hand time for pack A: T_est ≈ 20 minutes (plausible range 15–25). It is an estimate, not a measurement; it is already filled in `experiment_log.md` §6.
