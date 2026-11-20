@@ -3,7 +3,6 @@
 Fill this in during the lab, as you go. Report the numbers as measured, including unfavourable ones: an honest result that the skill did not save time, or that your forecast was off, earns full marks.
 
 **Name:**
-**Partner (GitHub username):**
 
 ## 1. Forecast (before the timed run)
 
@@ -55,11 +54,9 @@ Times from `output/laps.csv` (or your stopwatch). `lap.sh ai stop` prints the mi
 
 Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-run`.
 
-## 3. Partner quality score
+## 3. Quality self-score
 
-**Filled in by your partner, on your laptop** (swap laptops; in a group of three, rotate), with the printed key-fact sheet for pack A, after your timed run was logged. 4 minutes. Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-scores`.
-
-Scored by (partner's GitHub username):
+**Filled in by you, after your timed run was logged,** with the key-fact sheet for pack A that the instructor posts in Teams. Score `output/ai_pack_A.md` as committed with `a04-run`; do not edit it any more. About 4 minutes. Then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-scores`.
 
 | | `ai_pack_A.md` |
 |:--|:--:|
@@ -67,14 +64,13 @@ Scored by (partner's GitHub username):
 | Errors (each wrong or invented statement, and anything the sheet lists as an error if stated) | |
 | **Quality = key facts correct − errors** | |
 | Send-ready (yes / no) | |
-| Disputed points (author, with the quote from the pack) | |
 
 Key facts seen before the timed run? (yes / no):
 Integers entered into the class form? (yes / no):
 
 ## 4. Errors found while checking
 
-One row per error you found in the AI report during the checking time (and any you or your partner found later; mark those "later").
+One row per error you found in the AI report during the checking time (and any you found later, during the self-check; mark those "later").
 
 | # | What was wrong in the AI report | How I found it (which source file) | Fixed by hand or by re-prompting? | Which skill step or check would have prevented it? |
 |--:|:--------------------------------|:-----------------------------------|:----------------------------------|:---------------------------------------------------|

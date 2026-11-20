@@ -165,17 +165,17 @@ git commit -m a04-run
 
 **Build time** is logged separately in `experiment_log.md` §5 and is not part of the timed run: t_build = Hands-on 2 + lab build (from the `a04-forecast` commit to the `a04-skill-v1` commit) + home v2. Read your commit times with `git log --date=iso --format=%ad%x20%s`.
 
-### Partner check
+### Self-check
 
-Do not look at the key facts before your timed run is logged; if it happens anyway, note it in the log. Then:
+Do not look at the key facts before your timed run is logged; if it happens anyway, note it in the log. After the run, the instructor posts the key-fact sheet for pack A in Teams. Then:
 
-1. **Swap laptops** with your partner. In a group of three, rotate: A scores B, B scores C, C scores A.
-2. With the printed key-fact sheet for pack A, your partner scores your report in **4 minutes** and writes the scores directly into **your** `experiment_log.md` §3:
-   - key facts correct (0–10);
+1. Score **your own** `output/ai_pack_A.md` as committed with `a04-run`. Do not edit the report any more. About 4 minutes.
+2. Write the scores into your `experiment_log.md` §3:
+   - key facts correct (0–10): a fact counts only if the report states it correctly;
    - errors (each wrong or invented statement, and anything the sheet lists as an error if stated);
    - **quality = key facts correct − errors**;
    - send-ready: yes or no.
-3. Swap back. You may dispute a point with a quote from the pack; note it in §3.
+3. Score strictly: a low, honest score costs nothing; a score that does not match your committed report does.
 4. Enter your integers into the anonymous class form, then commit:
 
 ```bash
@@ -201,7 +201,7 @@ git push
 
 1. **Skill** (`.agents/skills/status-report/`): `SKILL.md` (frontmatter with a specific description; numbered steps; checks before answering; boundaries; where to save), `template.md`, `voice.md`, optional `example.md` (one good report for an invented project that is in none of the packs). Version 2 or later; the footer line `Prepared with skill: status-report v<n>` stays at the end of the template. No facts from any pack inside the skill.
 2. **Trigger test** (`skill_test.md`, pack B): excerpt of `opencode debug skill`; one matching request (reworded, output `a04/output/trigger_match.md`) and one near-miss request, each in a fresh session, with whether the skill loaded; if a test misfired, fixed and re-tested; otherwise a harder near-miss tested.
-3. **Time experiment** (`experiment_log.md` + `output/`): forecast committed before the run; laps (`laps.csv` or written times) with drafting and checking split; felt estimate; the report `ai_pack_A.md`; checklist ticked; partner quality score; every error found while checking; build time.
+3. **Time experiment** (`experiment_log.md` + `output/`): forecast committed before the run; laps (`laps.csv` or written times) with drafting and checking split; felt estimate; the report `ai_pack_A.md`; checklist ticked; quality self-score; every error found while checking; build time.
 4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the estimated baseline T_est; comparison with the studies; three threats to validity; break-even computed twice (your `F_manual` and the estimated baseline T_est as the manual time).
 5. **Voice test** (`voice_test.md`, pack B): the two reports (with and without `voice.md`), rule violations counted in each; optionally a blind reader's pick with the X/Y coin (violation counts alone earn up to 3 of the 5 points).
 6. **Delegation matrix** (`delegation_matrix.md`): six plausible recurring tasks (own work or a realistic target role) with both axes justified, zones and decisions; one task split into sub-tasks; your next skill candidate with a break-even estimate.
@@ -226,7 +226,7 @@ About $0.15–0.40 for the whole assignment (12–15 agent tasks on Haiku 5.5; i
 
 | Problem | What to do |
 |:--------|:-----------|
-| `get-assignment.sh` says the template has no folder `a04/` yet | Wait a minute and retry. If it persists, copy your partner's `a04/` from GitHub. |
+| `get-assignment.sh` says the template has no folder `a04/` yet | Wait a minute and retry. If it persists, copy a classmate's `a04/` from GitHub. |
 | `opencode debug skill` does not list the skill | `ls .agents/skills/*/SKILL.md` must show `.agents/skills/status-report/SKILL.md` at the repository root; the file name is exactly `SKILL.md`; if OpenCode was started before the folder existed, quit and restart. |
 | Skill listed but never loaded (no footer line) | Description empty or vague; OpenCode not restarted after the last edit; the request does not match the description. Test once with an explicit request: `Use the status-report skill to ...` |
 | The agent refuses to edit `.agents/skills/` | Check the a04 section in the root `AGENTS.md`, then restart; or name the folder in your request; or edit the file yourself in the VS Code editor. |
