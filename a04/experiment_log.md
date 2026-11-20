@@ -21,7 +21,7 @@ Times from `output/laps.csv` (or your stopwatch). `lap.sh ai stop` prints the mi
 
 **Felt estimate first.** When every checklist item is ticked, and **before** you run `bash a04/tools/lap.sh ai stop`, write how many minutes the whole run felt like. Do not look at the clock or the laps first.
 
-| `R_ai_total`: felt minutes for the whole run | |
+| `R_ai_total`: felt minutes for the whole run (stopped at the 20-minute backstop: write 20+) | |
 |:--|--:|
 
 | | |
