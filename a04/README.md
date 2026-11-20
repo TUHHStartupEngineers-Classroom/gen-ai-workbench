@@ -139,7 +139,7 @@ git commit -m a04-skill-v1
 
 Everyone runs the same pack, `pack_A`, with skill v1. Fresh session first (quit and restart OpenCode).
 
-**Start a 15-minute timer on your phone at `start`.** `lap.sh` does not warn you live. If `lap.sh` fails, use the phone stopwatch and write the times into the log. Log each step in terminal 2:
+**The 15-minute cap:** in class the instructor calls it. If you do the run at home, start a 15-minute timer on your phone at `start`, screen down (`lap.sh` does not warn you, and a visible clock would spoil your felt estimate). If `lap.sh` fails, use the phone stopwatch and write the times into the log. Log each step in terminal 2:
 
 1. As you send the request, run `bash a04/tools/lap.sh ai start`. The request in OpenCode (do not name the skill; the description has to trigger it):
 
