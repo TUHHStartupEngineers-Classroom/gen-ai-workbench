@@ -14,7 +14,7 @@ Numbers from `experiment_log.md` §1–§3 and §6, as measured.
 |:--|--:|--:|--:|
 | AI total minutes (pack A) | `F_ai_total` = | | `R_ai_total` = |
 | AI checking minutes | `F_ai_check` = | | |
-| Finished within 15 min? | | | |
+| Finished within 20 min? | | | |
 
 | Manual time (pack A) | Minutes |
 |:--|--:|

@@ -107,9 +107,9 @@ case "$event" in
         echo "  Checking (verify to stop):  $(minutes "$last_verify" "$epoch") min"
       fi
     fi
-    if [ $((epoch - last_start)) -gt 900 ]; then
-      echo "This is over the 15-minute cap: log the run as 15+ in a04/experiment_log.md,"
-      echo "with the share of sections that were done at minute 15."
+    if [ $((epoch - last_start)) -gt 1200 ]; then
+      echo "This is over the 20-minute backstop: log the run as 20+ in a04/experiment_log.md,"
+      echo "with the share of sections that were done at minute 20."
     fi
     ;;
 esac

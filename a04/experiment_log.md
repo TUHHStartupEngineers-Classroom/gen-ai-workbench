@@ -33,7 +33,7 @@ Times from `output/laps.csv` (or your stopwatch). `lap.sh ai stop` prints the mi
 | Measured drafting minutes (start → verify) | |
 | Measured checking minutes (verify → stop) | |
 | Measured total minutes | |
-| Finished within 15 min? (yes / 15+ with share of sections done) | |
+| Finished within 20 min? (yes / 20+ with share of sections done) | |
 | Where (lab / home) | |
 | Timing source (lap.sh / stopwatch / estimate) | |
 | Model (if not Haiku 5.5) | |

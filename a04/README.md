@@ -139,7 +139,7 @@ git commit -m a04-skill-v1
 
 Everyone runs the same pack, `pack_A`, with skill v1. Fresh session first (quit and restart OpenCode).
 
-**The 15-minute cap:** in class the instructor calls it. If you do the run at home, start a 15-minute timer on your phone at `start`, screen down (`lap.sh` does not warn you, and a visible clock would spoil your felt estimate). If `lap.sh` fails, use the phone stopwatch and write the times into the log. Log each step in terminal 2:
+**The 20-minute backstop:** take the time a careful check needs; in class the instructor calls "20 minutes". If you do the run at home, start a 20-minute timer on your phone at `start`, screen down (`lap.sh` does not warn you, and a visible clock would spoil your felt estimate). Log each step in terminal 2:
 
 1. As you send the request, run `bash a04/tools/lap.sh ai start`. The request in OpenCode (do not name the skill; the description has to trigger it):
 
@@ -154,7 +154,7 @@ Everyone runs the same pack, `pack_A`, with skill v1. Fresh session first (quit 
 4. When every checklist item is ticked, and **before** you run `stop`: write your felt estimate `R_ai_total` (how many minutes the whole run felt like) into `experiment_log.md` §2. Do not look at the clock or the laps first.
 5. Run `bash a04/tools/lap.sh ai stop`. It prints the total, drafting and checking minutes.
 
-**The 15-minute cap.** If you are not done after 15 minutes, write the felt estimate, stop, and log the run as **15+**, with the share of sections done. A 15+ run is a valid result, not a failure.
+**The 20-minute backstop.** If you are not done after 20 minutes, write the felt estimate, stop, and log the run as **20+**, with the share of sections done. 20 minutes is the estimated hand time, so a 20+ run saved nothing on time: a valid result, not a failure.
 
 Commit the run:
 
@@ -232,7 +232,7 @@ About $0.15–0.40 for the whole assignment (12–15 agent tasks on Haiku 5.5; i
 | The agent refuses to edit `.agents/skills/` | Check the a04 section in the root `AGENTS.md`, then restart; or name the folder in your request; or edit the file yourself in the VS Code editor. |
 | OpenCode key problem | Do the timed run at home the same evening, with the same rules (forecast committed first); write "home" in the log. Run `bash tools/check-setup.sh` for the diagnosis. |
 | Haiku slow or endpoint errors | Retry once. If it persists, switch the model with `/models` to `openrouter/openai/gpt-5-nano` and write that into the log. |
-| Timer forgotten | Reconstruct the times from the file times (`ls -l --time-style=full-iso a04/output/`) and your commit times; mark them as an estimate. |
+| `lap.sh` fails or a lap forgotten | Reconstruct the times from the file times (`ls -l --time-style=full-iso a04/output/`) and your commit times; mark them as an estimate. |
 | No time left for the timed run | Do it at home the same evening with the same rules; write "home" in the log. |
 | Key facts seen before the timed run | Note it in the log; the quality score is flagged, not discarded. |
 
