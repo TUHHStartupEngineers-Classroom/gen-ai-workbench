@@ -28,9 +28,9 @@ Example: 60 minutes to build, 30 minutes by hand, 12 minutes with AI including c
 
 ## Hands-on 1 (block 1, no AI)
 
-List five recurring tasks in the table below (rows 1–5) and place two of them (zone and decision). Complete all six rows at home.
+List five recurring tasks in the table below (rows 1–5) and place two of them (zone and decision). At home, place the other three.
 
-## My six recurring tasks
+## My five recurring tasks
 
 Frequency in times per month, so you can compute the break-even. "Why" and "how" in one short sentence each.
 
@@ -41,21 +41,8 @@ Frequency in times per month, so you can compute the break-even. "Why" and "how"
 | 3 | | | | | | | |
 | 4 | | | | | | | |
 | 5 | | | | | | | |
-| 6 | | | | | | | |
 
-Decision = delegate and spot-check · delegate and verify · sparring partner · keep · split.
-
-## Decomposition: one task split into sub-tasks
-
-Pick a task that should not be delegated as a whole (ideally zone 4) and split it into sub-tasks that land in different zones. Say for each sub-task why it lands there.
-
-**Task (row #):**
-
-| Sub-task | Cost of an undetected error | Cost of checking | Zone | Who does it (AI / me / AI drafts, I decide) |
-|:--|:--|:--|:-:|:--|
-| | | | | |
-| | | | | |
-| | | | | |
+Decision = delegate and spot-check · delegate and verify · sparring partner · keep.
 
 ## My next skill candidate
 

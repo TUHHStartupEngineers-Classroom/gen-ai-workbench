@@ -3,19 +3,19 @@
 **Due: Friday, 27 November 2026, 12:00.** Weight: 5%. No late submissions; extensions only if requested before the deadline.
 Full brief and rubric: <https://www.gen-ai.startupengineer.io/sessions/04_skills/session.html>
 
-You are a project lead at Nordhafen Industriebedarf GmbH (fictional). Every Friday you send a weekly status report to the managing director. You package this recurring task as a **skill**: a folder with a `SKILL.md` file that the agent loads only when the task needs it. Then you forecast how long the report takes, time one AI run with your skill on pack A, checking included, and compare the result with your forecast, with an estimated manual baseline (about 20 minutes by hand), and with the field evidence. At home you also place your own recurring tasks on a delegation matrix, test your skill's trigger and voice, and scout use cases for your capstone.
+You are a project lead at Nordhafen Industriebedarf GmbH (fictional). Every Friday you send a weekly status report to the managing director. You package this recurring task as a **skill**: a folder with a `SKILL.md` file that the agent loads only when the task needs it. Then you forecast how long the report takes, time one AI run with your skill on pack A, checking included, and compare the result with your forecast, with an estimated manual baseline (about 20 minutes by hand), and with the field evidence. At home you also place your own recurring tasks on a delegation matrix, test your skill's trigger, and scout use cases for your capstone.
 
-The project material sits in `tasks/`: one practice pack to build and test your skill, `pack_A` for the timed run in the lab, and `pack_B` for the trigger test and the voice test at home. Each pack is a scaled-down project week (about 900 words): last week's report, a milestone plan, meeting notes, e-mails, a chat excerpt, a budget note. A real week has more material, so keep this in mind when you interpret your result.
+The project material sits in `tasks/`: one practice pack to build and test your skill, `pack_A` for the timed run in the lab, and `pack_B` for the trigger test at home. Each pack is a scaled-down project week (about 900 words): last week's report, a milestone plan, meeting notes, e-mails, a chat excerpt, a budget note. A real week has more material, so keep this in mind when you interpret your result.
 
-**Time:** the lab covers the skill build and the timed run. Plan about 4–5 hours at home for skill v2, the tests, the matrix, the scouting and the reflection.
+**Time:** the lab covers the skill build and the timed run. Plan about 2–3 hours at home for skill v2, the trigger test, the matrix, the scouting and the reflection.
 
 ## What you edit, and what you leave alone
 
 | Edit | Leave alone |
 |:-----|:------------|
-| `.agents/skills/status-report/` at the **repository root** (not inside `a04/`): `SKILL.md`, `template.md`, `voice.md`, optional `example.md` | `tasks/`: the three packs (read-only, for you and for the agent) |
-| `experiment_log.md`, `skill_test.md`, `voice_test.md`, `delegation_matrix.md`, `scouting.md`, `REFLECTION.md` | `report_template.md` and `send_ready_checklist.md`: everyone uses the same versions, so outputs are comparable (copy the template into your skill; do not change the original) |
-| `output/`: your reports (`practice_vN.md`, `ai_pack_A.md`, trigger-test and voice-test files) | `output/laps.csv`: written by `tools/lap.sh`; commit it, do not edit it |
+| `.agents/skills/status-report/` at the **repository root** (not inside `a04/`): `SKILL.md`, `template.md`, optional `voice.md` and `example.md` | `tasks/`: the three packs (read-only, for you and for the agent) |
+| `experiment_log.md`, `skill_test.md`, `delegation_matrix.md`, `scouting.md`, `REFLECTION.md` | `report_template.md` and `send_ready_checklist.md`: everyone uses the same versions, so outputs are comparable (copy the template into your skill; do not change the original) |
+| `output/`: your reports (`practice_vN.md`, `ai_pack_A.md`, trigger-test files) | `output/laps.csv`: written by `tools/lap.sh`; commit it, do not edit it |
 | the **root** `AGENTS.md` (add the a04 section in Hands-on 2) | `tools/lap.sh` and `skill_skeleton/` (you copy the skeleton once, then work only in `.agents/skills/status-report/`) |
 
 The skill name and place are fixed: `.agents/skills/status-report/SKILL.md`, with `name: status-report`. The instructor's pack C run looks exactly there.
@@ -189,7 +189,7 @@ In the debrief you see the class numbers next to an estimated hand time for pack
 ### After the lab (at home)
 
 1. **Skill v2:** for each thing you fixed in the AI report or noted in the practice check, which step or check would have prevented it? Fix it, set the footer to `v2` (raise it with every later version), start a fresh session, run the practice pack again (`practice_v2.md`, …) and check it.
-2. Trigger test (`skill_test.md`) and voice file plus voice test (`voice_test.md`), both on `pack_B`; delegation matrix, scouting, reflection.
+2. Trigger test (`skill_test.md`, on `pack_B`); delegation matrix (place all five tasks, next skill candidate); scouting (two candidates); reflection.
 3. Commit and push:
 
 ```bash
@@ -200,14 +200,13 @@ git push
 
 ## Deliverables (final commit before the deadline)
 
-1. **Skill** (`.agents/skills/status-report/`): `SKILL.md` (frontmatter with a specific description; numbered steps; checks before answering; boundaries; where to save), `template.md`, `voice.md`, optional `example.md` (one good report for an invented project that is in none of the packs). Version 2 or later; the footer line `Prepared with skill: status-report v<n>` stays at the end of the template. No facts from any pack inside the skill.
-2. **Trigger test** (`skill_test.md`, pack B): excerpt of `opencode debug skill`; one matching request (reworded, output `a04/output/trigger_match.md`) and one near-miss request, each in a fresh session, with whether the skill loaded; if a test misfired, fixed and re-tested; otherwise a harder near-miss tested.
+1. **Skill** (`.agents/skills/status-report/`): `SKILL.md` (frontmatter with a specific description; numbered steps; checks before answering; boundaries; where to save), `template.md`, optional `voice.md` (your style rules) and `example.md` (one good report for an invented project that is in none of the packs). Version 2 or later; the footer line `Prepared with skill: status-report v<n>` stays at the end of the template. No facts from any pack inside the skill.
+2. **Trigger test** (`skill_test.md`, pack B): excerpt of `opencode debug skill`; one matching request (reworded, output `a04/output/trigger_match.md`) and one near-miss request, each in a fresh session, with whether the skill loaded; if a test misfired, fixed and re-tested.
 3. **Time experiment** (`experiment_log.md` + `output/`): forecast committed before the run; laps (`laps.csv` or written times) with drafting and checking split; felt estimate; the report `ai_pack_A.md`; checklist ticked; quality self-score; every error found while checking; build time.
-4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the estimated baseline T_est; comparison with the studies; three threats to validity; break-even computed twice (your `F_manual` and the estimated baseline T_est as the manual time).
-5. **Voice test** (`voice_test.md`, pack B): the two reports (with and without `voice.md`), rule violations counted in each; optionally a blind reader's pick with the X/Y coin (violation counts alone earn up to 3 of the 5 points).
-6. **Delegation matrix** (`delegation_matrix.md`): six plausible recurring tasks (own work or a realistic target role) with both axes justified, zones and decisions; one task split into sub-tasks; your next skill candidate with a break-even estimate.
-7. **Use-case scouting** (`scouting.md`): two or three candidate capstone use cases with all fields; your preferred one in one sentence (feeds team formation in S06).
-8. **Cost and AI-use log** (`REFLECTION.md` §3 + table): spend before and after, AI-use log.
+4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the estimated baseline T_est; comparison with one study of your choice; two threats to validity; break-even computed twice (your `F_manual` and the estimated baseline T_est as the manual time).
+5. **Delegation matrix** (`delegation_matrix.md`): the five recurring tasks from Hands-on 1 (own work or a realistic target role), all placed with both axes justified, zones and decisions; your next skill candidate with a break-even estimate.
+6. **Use-case scouting** (`scouting.md`): two candidate capstone use cases with all fields; your preferred one in one sentence (feeds team formation in S06).
+7. **Cost and AI-use log** (`REFLECTION.md` §3 + table): spend before and after, AI-use log.
 
 **How it is graded:** the rubric (100 points) is on the session page. Grading never depends on AI being faster: an honest result that the skill did not save time, or that your forecast was off, well explained, earns full marks.
 
@@ -245,5 +244,5 @@ As in A3: push your final commit, copy the commit URL from your repository's **H
 
 - Never write your API key into any file. A key in your git history costs 10 points.
 - Every submission includes the AI-use log (`REFLECTION.md`); a missing log costs 10 points.
-- Synthetic data only. The delegation matrix and the scouting describe tasks, never real company data; the voice sample is your own non-confidential writing. Real or confidential data costs 10 points.
+- Synthetic data only. The delegation matrix and the scouting describe tasks, never real company data; the optional voice sample is your own non-confidential writing. Real or confidential data costs 10 points.
 - A skill is a set of instructions that runs with your permissions: read every skill before you install it, including your own after the agent has edited it.

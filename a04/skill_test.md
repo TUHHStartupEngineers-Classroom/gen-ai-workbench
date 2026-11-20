@@ -48,14 +48,13 @@ A near miss is a request close to the task that must not trigger the skill, for 
 - `skill` tool call visible? (yes / no / window does not show it):
 - Stayed quiet as expected? (yes / no):
 
-## 5. Misfire fixed, or a harder near miss
+## 5. Misfire fixed (only if a test misfired)
 
-- **If a test misfired** (no load on the matching request, or a load on the near miss): what you changed in the description (before → after), why, and the result of the re-test in a fresh session.
-- **Otherwise:** test a harder near miss (closer to the task) in a fresh session and report it.
+If the matching request did not load the skill, or the near miss did: what you changed in the description (before → after), why, and the result of the re-test in a fresh session. If both tests behaved as expected, write "not needed".
 
 | | Description | Request | Result |
 |:--|:--|:--|:--|
 | First test | | | |
-| Fix and re-test, or harder near miss | | | |
+| Fix and re-test | | | |
 
 This file goes into your `a04-final` commit (`git add a04 .agents AGENTS.md`).

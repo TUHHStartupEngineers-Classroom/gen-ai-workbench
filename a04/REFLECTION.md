@@ -33,17 +33,14 @@ In two or three sentences: how far were your forecast and your felt estimate fro
 - Felt vs. measured:
 - Your `F_manual` vs. the estimated baseline (T_est = 20 min):
 
-**Comparison with the studies** (one or two sentences each; be precise about what each study measured: task, effect, who gained, and whether checking was needed):
+**Comparison with one study** (choose one: Noy & Zhang 2023, Brynjolfsson et al. 2025, or Dell'Acqua et al. 2026; two or three sentences, precise about what it measured: task, effect, who gained, and whether checking was needed):
 
-- Noy & Zhang (2023):
-- Brynjolfsson et al. (2025):
-- Dell'Acqua et al. (2026):
+- Study and comparison:
 
-**Three threats to validity** (specific to your run, not generic). Think, for example, about what the manual baseline rests on (your own forecast, or an estimate that nobody measured), whether writing a forecast changed how you worked, what a single run can show, and how far a scaled-down week (about 900 words of input) carries over to a real week.
+**Two threats to validity** (specific to your run, not generic). Think, for example, about what the manual baseline rests on (your own forecast, or an estimate that nobody measured), whether writing a forecast changed how you worked, what a single run can show, and how far a scaled-down week (about 900 words of input) carries over to a real week.
 
 1.
 2.
-3.
 
 **Break-even in report-weeks, computed twice** (t_ai = your measured AI total including checking):
 
@@ -70,5 +67,4 @@ Spend from `bash tools/check-setup.sh --usage`: "before" is the number you noted
 | OpenCode | | practice runs and skill v2+ | |
 | OpenCode | | timed AI run (pack A) | |
 | OpenCode | | trigger tests (pack B) | |
-| OpenCode | | voice test runs (pack B) | |
 | | | | |
