@@ -102,6 +102,8 @@ The gate is the check at the start of the lab: your skill is listed by `opencode
 - `F_ai_total`: how long it will take with your skill, checking included;
 - `F_ai_check`: how many of those minutes will be checking.
 
+Base the numbers on the practice pack (same structure and size as pack A), your `practice_v0.md` and `send_ready_checklist.md`. **Do not open pack A before `lap.sh ai start`**: reading it untimed would make your checking look shorter than it is.
+
 Commit the forecast before the timed run; the commit time shows the forecast came first, and it starts your build time:
 
 ```bash

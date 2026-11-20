@@ -7,7 +7,7 @@ Fill this in during the lab, as you go. Report the numbers as measured, includin
 
 ## 1. Forecast (before the timed run)
 
-Three whole numbers of minutes, for the pack A report. Write them before the skill build, then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-forecast`. Do not change them afterwards.
+Three whole numbers of minutes, for the pack A report. Write them before the skill build, then commit: `git add a04 .agents AGENTS.md`, then `git commit -m a04-forecast`. Do not change them afterwards. Base the numbers on the practice pack (same structure and size as pack A), your `practice_v0.md` and `send_ready_checklist.md`. **Do not open pack A before `lap.sh ai start`**: reading it untimed would make your checking look shorter than it is.
 
 | Field | Minutes |
 |:------|--------:|
