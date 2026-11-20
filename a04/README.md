@@ -154,7 +154,7 @@ Everyone runs the same pack, `pack_A`, with skill v1. Fresh session first (quit 
 4. When every checklist item is ticked, and **before** you run `stop`: write your felt estimate `R_ai_total` (how many minutes the whole run felt like) into `experiment_log.md` §2. Do not look at the clock or the laps first.
 5. Run `bash a04/tools/lap.sh ai stop`. It prints the total, drafting and checking minutes. Then, untimed, write every error you found into `experiment_log.md` §4 (what was wrong, how you found it).
 
-**The 20-minute backstop.** If you are not done after 20 minutes, stop and log **20+** as both the measured and the felt time (once you know 20 minutes have passed, a felt number is no longer a guess), with the share of sections done. 20 minutes is the estimated hand time, so a 20+ run saved nothing on time: a valid result, not a failure.
+**The 20-minute backstop.** If you are not done after 20 minutes, stop and log **20+** as both the measured and the felt time (once you know 20 minutes have passed, a felt number is no longer a guess), with how many of the 8 checklist items were ticked. 20 minutes is the estimated hand time, so a 20+ run saved nothing on time: a valid result, not a failure.
 
 Commit the run:
 
