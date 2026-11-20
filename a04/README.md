@@ -3,7 +3,7 @@
 **Due: Friday, 27 November 2026, 12:00.** Weight: 5%. No late submissions; extensions only if requested before the deadline.
 Full brief and rubric: <https://www.gen-ai.startupengineer.io/sessions/04_skills/session.html>
 
-You are a project lead at Nordhafen Industriebedarf GmbH (fictional). Every Friday you send a weekly status report to the managing director. You package this recurring task as a **skill**: a folder with a `SKILL.md` file that the agent loads only when the task needs it. Then you forecast how long the report takes, time one AI run with your skill on pack A, checking included, and compare the result with your forecast, with a measured manual baseline from the instructor, and with the field evidence. At home you also place your own recurring tasks on a delegation matrix, test your skill's trigger and voice, and scout use cases for your capstone.
+You are a project lead at Nordhafen Industriebedarf GmbH (fictional). Every Friday you send a weekly status report to the managing director. You package this recurring task as a **skill**: a folder with a `SKILL.md` file that the agent loads only when the task needs it. Then you forecast how long the report takes, time one AI run with your skill on pack A, checking included, and compare the result with your forecast, with an estimated manual baseline (about 20 minutes by hand), and with the field evidence. At home you also place your own recurring tasks on a delegation matrix, test your skill's trigger and voice, and scout use cases for your capstone.
 
 The project material sits in `tasks/`: one practice pack to build and test your skill, `pack_A` for the timed run in the lab, and `pack_B` for the trigger test and the voice test at home. Each pack is a scaled-down project week (about 900 words): last week's report, a milestone plan, meeting notes, e-mails, a chat excerpt, a budget note. A real week has more material, so keep this in mind when you interpret your result.
 
@@ -52,11 +52,12 @@ cd /workspaces/gen-ai-workbench
 mkdir -p .agents/skills
 cp -r a04/skill_skeleton .agents/skills/status-report
 code .agents/skills/status-report/SKILL.md
+code AGENTS.md
 ```
 
 In the editor, write a first `description`: one line, in double quotes, saying what the skill does and when to use it. For example: `description: "Writes the weekly project status report for management from a folder of project files. Use when the user asks for a weekly status report for a project folder."`
 
-Add these lines at the end of the **root** `AGENTS.md` (rule 1 there keeps the agent inside the assignment folder; this section lets it work on your skill):
+Add these lines at the end of the **root** `AGENTS.md` (rule 1 there keeps the agent inside the assignment folder; this section lets it work on your skill). Save both files (Ctrl+S / Cmd+S) before you start OpenCode:
 
 ```text
 ## a04
@@ -74,10 +75,10 @@ opencode
 **Terminal 2:** check that OpenCode finds the skill:
 
 ```bash
-opencode debug skill | grep -E '^ *"(name|location)":'
+opencode debug skill | cut -c1-100
 ```
 
-Expected: two skills, the built-in `customize-opencode` and `status-report` with the location `.agents/skills/status-report/SKILL.md`. (Without the `grep`, the full output also shows your description.)
+Expected: two skills, the built-in `customize-opencode` and `status-report`, with your description and the location `…/.agents/skills/status-report/SKILL.md`. `cut -c1-100` only shortens each line to 100 characters; without it, each skill's whole text fills the screen.
 
 **In OpenCode (terminal 1):**
 
@@ -199,7 +200,7 @@ git push
 1. **Skill** (`.agents/skills/status-report/`): `SKILL.md` (frontmatter with a specific description; numbered steps; checks before answering; boundaries; where to save), `template.md`, `voice.md`, optional `example.md` (one good report for an invented project that is in none of the packs). Version 2 or later; the footer line `Prepared with skill: status-report v<n>` stays at the end of the template. No facts from any pack inside the skill.
 2. **Trigger test** (`skill_test.md`, pack B): excerpt of `opencode debug skill`; one matching request (reworded, output `a04/output/trigger_match.md`) and one near-miss request, each in a fresh session, with whether the skill loaded; if a test misfired, fixed and re-tested; otherwise a harder near-miss tested.
 3. **Time experiment** (`experiment_log.md` + `output/`): forecast committed before the run; laps (`laps.csv` or written times) with drafting and checking split; felt estimate; the report `ai_pack_A.md`; checklist ticked; partner quality score; every error found while checking; build time.
-4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the estimated baseline T_est; comparison with the studies; three threats to validity; break-even computed twice (your `F_manual` and the instructor baseline as the manual time).
+4. **Interpretation** (`REFLECTION.md` §1–2, max. 1 page): forecast vs. measured vs. felt; your `F_manual` vs. the estimated baseline T_est; comparison with the studies; three threats to validity; break-even computed twice (your `F_manual` and the estimated baseline T_est as the manual time).
 5. **Voice test** (`voice_test.md`, pack B): the two reports (with and without `voice.md`), rule violations counted in each; optionally a blind reader's pick with the X/Y coin (violation counts alone earn up to 3 of the 5 points).
 6. **Delegation matrix** (`delegation_matrix.md`): six plausible recurring tasks (own work or a realistic target role) with both axes justified, zones and decisions; one task split into sub-tasks; your next skill candidate with a break-even estimate.
 7. **Use-case scouting** (`scouting.md`): two or three candidate capstone use cases with all fields; your preferred one in one sentence (feeds team formation in S06).

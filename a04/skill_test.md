@@ -9,14 +9,14 @@ Evidence that the skill loaded: the report ends with the footer line `Prepared w
 Run in terminal 2 and paste the output:
 
 ```bash
-opencode debug skill | grep -E '^ *"(name|location)":'
+opencode debug skill | cut -c1-100
 ```
 
 ```text
 
 ```
 
-Expected: two skills, the built-in `customize-opencode` and `status-report` with the location `.agents/skills/status-report/SKILL.md`.
+Expected: two skills, the built-in `customize-opencode` and `status-report`, with your description and the location `…/.agents/skills/status-report/SKILL.md`.
 
 ## 2. The description I tested
 
